@@ -1,0 +1,171 @@
+/* Configurações gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secao{
+    text-align: center;
+    padding: 50px 2%;
+}
+/* Fim das configurações gerais */
+
+
+
+/* Estilização do header */
+header{
+    background-color: #B0DDFC;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header .logo{
+    width: 250px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header li a{
+    font-size: 20px;
+    color: #13242F;
+}
+
+ /* Fim da estilização do header */ 
+
+ /* Estilização da section banner */
+
+.banner img{
+    max-width:1400px;
+    width: 100%;
+}
+ /* Fim da estilização da section banner */
+
+
+ /* Estilização da seção sobre */
+
+.sobre h1{
+    font-size: 30px;
+}
+
+.sobre h2{
+    color: #1D80C1;
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+.sobre img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.sobre p, .corretores p{
+    max-width: 1024px;
+    width: 100%;
+    text-align: justify;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.sobre span, .corretores span{
+    color: #1D80C1;
+    font-weight: bold;
+}
+ /* Fim da estilização da seção sobre */
+
+ /* Estilização da seção serviços */
+.servicos{
+    background-color: #1D80C1;
+    color: white;
+}
+
+.servicos p{
+    line-height: 35px;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.servicos ul{
+    list-style-position: inside;
+    display: inline-block;
+}
+
+.servicos ul li{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.servicos span{
+    color: yellow;
+    font-weight: bold;
+}
+ /* Fim da estilização da seção serviços */
+
+ /* Estilização da seção de corretores */
+.corretores h2{
+    color: #1D80C1;
+    margin-bottom:30px ;
+}
+
+.corretores img{
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+ /* Fim da estilização da seção de corretores */
+
+ /* Estilização do Contato */
+.contato{
+    background-color: #1D80C1;
+    color: white;
+}
+
+.contato h2{
+    margin-bottom: 30px;
+}
+
+.contato iframe{
+    max-width: 800px;
+    height: 400px;
+    width: 100%;
+}
+
+.contato p{
+    margin: 25px 0;
+    background-color: #1D1D1D;
+    padding: 20px;
+    display: inline-block;
+}
+
+.contato ul{
+    list-style-type: none;
+}
+
+.contato ul li a{
+    display: inline-block;
+    color: #1D80C1;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.contato span{
+    color: yellow;
+    font-weight: bold;
+}
+ /* Fim da estilização do contato */
+
+
+
